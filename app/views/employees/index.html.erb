@@ -1,0 +1,8 @@
+<h3>Here are all your employees</h3>
+
+<% @employee.each do |employee| %>
+  <h2>first name: <%= employee['first_name'] %><h2>
+  <h4>last name: <%= employee['last_name'] %></h4>
+  <h4>email: <%= employee['email'] %></h4>
+  <h4>employee: <%= employee['birthday'] %></h4>
+<h4><% end %></h4>
